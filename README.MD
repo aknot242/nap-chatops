@@ -3,6 +3,8 @@ This repo features an example of how FluentD and Microsoft Teams can be used to 
 
 The FluentD server runs in a docker container. Configure your App Protect logging destination to use syslog with a location of `<your docker host>:5140`.
 
+Edit the `fluent.conf` file and insert your Teams webhook URL where designated at the `webhook_url` setting.
+
 Build the FluentD Docker container:
 
 ```
